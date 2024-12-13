@@ -1,127 +1,127 @@
 # Game list for the script
-# game-name -> APPID
+# game-name -> APPID / status
 
 
-01. A Plague Tale Requiem -> 1182900
-02. Fears to Fathom - Carson House -> 2120900
-03. Fears to Fathom - Ironbark Lookout -> 2506160
-04. Fears to Fathom - Norwood Hitchhike -> 1763050
-05. Fears to Fathom - Woodbury Getaway -> 2961530
-06. Call of Duty Black Ops -> 42700
-07. Call of Duty Modern Warfare Remastered (2017) -> 393080
-08. Call of Duty Modern Warfare 2 (2009) -> 10180
-09. Call of Duty Modern Warfare 3 (2011) -> 115300
-10. Forza Horizon 5 -> 1551360
-11. Forza Horizon 4 -> 1293830
-12. A Plague Tale Innocence -> 752590
-13. Outlast -> 238320
-14. Outlast 2 -> 414700
-15. Cities Skylines -> 255710
-16. Cities Skylines II -> 949230
-17. Far Cry 3 -> 220240
-18. Farming Simulator 25 -> 2300320
-19. Tomb Raider: Underworld -> 8140
-20. Lara Croft and the Guardian of Light -> 35130
-21. Tomb Raider (2013) -> 203160
-22. Lara Croft and the Temple of Osiris -> 289690
-23. Rise of the Tomb Raider -> 391220
-24. Shadow of the Tomb Raider -> 1109290
-25. Cyberpunk 2077 -> 1091500
-26. Indiana Jones and the Great Circle -> 2677660
-27. Call of Duty 4 Modern Warfare -> 7940
-28. Call of Duty World at War -> 10090
-29. Call of Duty Black Ops II -> 202990
-30. Call of Duty: Ghosts -> 209160
-31. Call of Duty: WWII -> 476600
-32. Red Dead Redemption -> 2668510
-33. Red Dead Redemption 2 -> 1174180
-34. Grand Theft Auto: Vice City – The Definitive Edition -> 1546990
-35. Grand Theft Auto III – The Definitive Edition -> 1546970
-36. Grand Theft Auto San Andreas – The Definitive Edition -> 1547000
-37. Grand Theft Auto V -> 271590
-38. Backrooms Escape Together -> 2141730
-39. The Last of Us Part I -> 1888930
-40. SILENT HILL 2 -> 2124490
-41. Poppy Playtime -> 1721470
-42. Poppy Playtime - Chapter 2 - DLC -> 653552
-43. Little Nightmares -> 424840
-44. Little Nightmares II -> 860510
-45. Black Myth Wukong -> 2358720
-46. Far Cry 6 -> 5266
-47. Far Cry New Dawn -> 5211
-48. Far Cry 5 -> 552520
-49. Far Cry Primal -> 2010
-50. Far Cry 4 -> 298110
-51. Far Cry 3 Blood Dragon -> 233270
-52. Far Cry 2 -> 19900
-53. Far Cry -> 13520
-54. Stray -> 1332010
-55. Alan Wake -> 108710
-56. Alan Wake's American Nightmare -> 202750
-57. Phasmophobia -> 739630
-58. DEVOUR -> 1274570
-59. The Quarry -> 1577120
-60. Dead by Daylight -> 381210
-61. Amnesia: The Bunker -> 1944430
-62. Amnesia: Rebirth -> 999220
-63. Amnesia: The Dark Descent -> 57300
-64. Amnesia A Machine for Pigs -> 239200
-65. Pacify -> 967050
-66. Layers of Fear -> 391720
-67. Fort Solis -> 1931730
-68. Visage -> 594330
-69. FATAL FRAME PROJECT ZERO Mask of the Lunar Eclipse -> 2130460
-70. FATAL FRAME / PROJECT ZERO: Maiden of Black Water -> 1732190
-71. Dying Light -> 239140
-72. Days Gone -> 1259420
-73. God of War -> 1593500
-74. DEATH STRANDING DIRECTOR'S CUT -> 1850570
-75. A Way Out -> 1222700
-76. The Evil Within -> 268050
-77. The Evil Within 2 -> 601430
-78. Portal -> 400
-79. Portal 2 -> 620
-80. Dying Light 2 Stay Human Reloaded Edition -> 534380
-81. DOOM -> 479030
-82. DOOM + DOOM II -> 2280
-83. DOOM Eternal -> 782330
-84. DOOM 64 -> 1148590
-85. Resident Evil -> 304240
-86. Resident Evil 2 -> 883710
-87. Resident Evil 3 -> 952060
-88. Resident Evil 4 -> 254700
-89. Resident Evil 5 -> 21690
-90. Resident Evil 6 -> 221040
-91. Resident Evil 0 -> 339340
-92. Resident Evil 7 Biohazard -> 418370
-93. Resident Evil Village -> 1196590
-94. Resident Evil Revelations -> 222480
-95. Resident Evil Revelations 2 -> 287290
-96. Resident Evil Re:Verse -> 1236300
-97. Avatar Frontiers of Pandora -> 2840770
-98. Warhammer 40,000 Space Marine 2 -> 2183900
-99. Saints Row IV: Re-Elected -> 206420
-100. Motel Manager Simulator -> 931225
-101. Marvel’s Spider-Man Miles Morales -> 1817190
-102. Marvel’s Spider-Man Remastered -> 1817070
-103. Police Simulator: Patrol Officers -> 997010
-104. Euro Truck Simulator -> 227300
-105. Euro Truck Simulator 2 -> 227300
-106. Batman Arkham Asylum GOTY Edition -> 35140
-107. Batman Arkham City GOTY -> 200260
-108. Batman Arkham Knight -> 208650
-109. Batman Arkham Origins -> 209000
-110. LEGO Batman 2 DC Super Heroes -> 213330
-111. Batman Arkham Origins Black gate - Deluxe Edition -> 35150
-112. LEGO Batman 3 Beyond Gotham -> 313690
-113. Batman - The Telltale Series -> 498240
-114. Batman The Enemy Within - The Telltale Series -> 675260
-115. Hacker Simulator -> 1754840
-116. Anonymous Hacker Simulator -> 2487060
-117. Dragon Ball Z Sparkling Zero -> 1790600
-118. God Of War Ragnarok -> 2322010
-119. Horizon Forbidden West -> 2420110
-120. Horizon Zero Dawn -> 1151640
-121. Baldur Gate 3 -> 1086940
+01. A Plague Tale Requiem -> 1182900 / ✅
+02. Fears to Fathom - Carson House -> 2120900 / ✅
+03. Fears to Fathom - Ironbark Lookout -> 2506160 / ✅
+04. Fears to Fathom - Norwood Hitchhike -> 1763050 / ✅
+05. Fears to Fathom - Woodbury Getaway -> 2961530 / ✅
+06. Call of Duty Black Ops -> 42700 / ✅
+07. Call of Duty Modern Warfare Remastered (2017) -> 393080 / ✅
+08. Call of Duty Modern Warfare 2 (2009) -> 10180 / ✅
+09. Call of Duty Modern Warfare 3 (2011) -> 115300 / ✅
+10. Forza Horizon 5 -> 1551360 / ✅
+11. Forza Horizon 4 -> 1293830 / ✅
+12. A Plague Tale Innocence -> 752590 / ✅
+13. Outlast -> 238320 / ✅
+14. Outlast 2 -> 414700 / ✅
+15. Cities Skylines -> 255710 / ✅
+16. Cities Skylines II -> 949230 / ✅
+17. Far Cry 3 -> 220240 / ✅
+18. Farming Simulator 25 -> 2300320 / ✅
+19. Tomb Raider: Underworld -> 8140 / ✅
+20. Lara Croft and the Guardian of Light -> 35130 / ✅
+21. Tomb Raider (2013) -> 203160 / ✅
+22. Lara Croft and the Temple of Osiris -> 289690 / ✅
+23. Rise of the Tomb Raider -> 391220 / ✅
+24. Shadow of the Tomb Raider -> 1109290 / ✅
+25. Cyberpunk 2077 -> 1091500 / ✅
+26. Indiana Jones and the Great Circle -> 2677660 / ✅
+27. Call of Duty 4 Modern Warfare -> 7940 / ✅
+28. Call of Duty World at War -> 10090 / ✅
+29. Call of Duty Black Ops II -> 202990 / ✅
+30. Call of Duty: Ghosts -> 209160 / ✅
+31. Call of Duty: WWII -> 476600 / ✅
+32. Red Dead Redemption -> 2668510 / ✅
+33. Red Dead Redemption 2 -> 1174180 / ✅
+34. Grand Theft Auto: Vice City – The Definitive Edition -> 1546990 / ✅
+35. Grand Theft Auto III – The Definitive Edition -> 1546970 / ✅
+36. Grand Theft Auto San Andreas – The Definitive Edition -> 1547000 / ✅
+37. Grand Theft Auto V -> 271590 / ✅
+38. Backrooms Escape Together -> 2141730 / ✅
+39. The Last of Us Part I -> 1888930 / ✅
+40. SILENT HILL 2 -> 2124490 / ✅
+41. Poppy Playtime -> 1721470 / ✅
+42. Poppy Playtime - Chapter 2 - DLC -> 653552 / ✅
+43. Little Nightmares -> 424840 / ✅
+44. Little Nightmares II -> 860510 / ✅
+45. Black Myth Wukong -> 2358720 / ✅
+46. Far Cry 6 -> 5266 / ✅
+47. Far Cry New Dawn -> 5211 / ✅
+48. Far Cry 5 -> 552520 / ✅
+49. Far Cry Primal -> 2010 / ✅
+50. Far Cry 4 -> 298110 / ✅
+51. Far Cry 3 Blood Dragon -> 233270 / ✅
+52. Far Cry 2 -> 19900 / ✅
+53. Far Cry -> 13520 / ✅
+54. Stray -> 1332010 / ✅
+55. Alan Wake -> 108710 / ✅
+56. Alan Wake's American Nightmare -> 202750 / ✅
+57. Phasmophobia -> 739630 / ✅
+58. DEVOUR -> 1274570 / ✅
+59. The Quarry -> 1577120 / ✅
+60. Dead by Daylight -> 381210 / ✅
+61. Amnesia: The Bunker -> 1944430 / ✅
+62. Amnesia: Rebirth -> 999220 / ✅
+63. Amnesia: The Dark Descent -> 57300 / ✅
+64. Amnesia A Machine for Pigs -> 239200 / ✅
+65. Pacify -> 967050 / ✅
+66. Layers of Fear -> 391720 / ✅
+67. Fort Solis -> 1931730 / ✅
+68. Visage -> 594330 / ✅
+69. FATAL FRAME PROJECT ZERO Mask of the Lunar Eclipse -> 2130460 / ✅
+70. FATAL FRAME / PROJECT ZERO: Maiden of Black Water -> 1732190 / ✅
+71. Dying Light -> 239140 / ✅
+72. Days Gone -> 1259420 / ✅
+73. God of War -> 1593500 / ✅
+74. DEATH STRANDING DIRECTOR'S CUT -> 1850570 / ✅
+75. A Way Out -> 1222700 / ✅
+76. The Evil Within -> 268050 / ✅
+77. The Evil Within 2 -> 601430 / ✅
+78. Portal -> 400 / ✅
+79. Portal 2 -> 620 / ✅
+80. Dying Light 2 Stay Human Reloaded Edition -> 534380 / ✅
+81. DOOM -> 479030 / ✅
+82. DOOM + DOOM II -> 2280 / ✅
+83. DOOM Eternal -> 782330 / ✅
+84. DOOM 64 -> 1148590 / ✅
+85. Resident Evil -> 304240 / ✅
+86. Resident Evil 2 -> 883710 / ✅
+87. Resident Evil 3 -> 952060 / ✅
+88. Resident Evil 4 -> 254700 / ✅
+89. Resident Evil 5 -> 21690 / ✅
+90. Resident Evil 6 -> 221040 / ✅
+91. Resident Evil 0 -> 339340 / ✅
+92. Resident Evil 7 Biohazard -> 418370 / ✅
+93. Resident Evil Village -> 1196590 / ✅
+94. Resident Evil Revelations -> 222480 / ✅
+95. Resident Evil Revelations 2 -> 287290 / ✅
+96. Resident Evil Re:Verse -> 1236300 / ✅
+97. Avatar Frontiers of Pandora -> 2840770 / ✅
+98. Warhammer 40,000 Space Marine 2 -> 2183900 / ✅
+99. Saints Row IV: Re-Elected -> 206420 / ✅
+100. Motel Manager Simulator -> 931225 / ✅
+101. Marvel’s Spider-Man Miles Morales -> 1817190 / ✅
+102. Marvel’s Spider-Man Remastered -> 1817070 / ✅
+103. Police Simulator: Patrol Officers -> 997010 / ✅
+104. Euro Truck Simulator -> 227300 / ✅
+105. Euro Truck Simulator 2 -> 227300 / ✅
+106. Batman Arkham Asylum GOTY Edition -> 35140 / ✅
+107. Batman Arkham City GOTY -> 200260 / ✅
+108. Batman Arkham Knight -> 208650 / ✅
+109. Batman Arkham Origins -> 209000 / ✅
+110. LEGO Batman 2 DC Super Heroes -> 213330 / ✅
+111. Batman Arkham Origins Black gate - Deluxe Edition -> 35150 / ✅
+112. LEGO Batman 3 Beyond Gotham -> 313690 / ✅
+113. Batman - The Telltale Series -> 498240 / ✅
+114. Batman The Enemy Within - The Telltale Series -> 675260 / ✅
+115. Hacker Simulator -> 1754840 / ✅
+116. Anonymous Hacker Simulator -> 2487060 / ✅
+117. Dragon Ball Z Sparkling Zero -> 1790600 / ✅
+118. God Of War Ragnarok -> 2322010 / ✅
+119. Horizon Forbidden West -> 2420110 / ✅
+120. Horizon Zero Dawn -> 1151640 / ✅
+121. Baldur Gate 3 -> 1086940 / ✅
 
 
