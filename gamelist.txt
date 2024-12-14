@@ -1,7 +1,8 @@
-# List of Free Games: Games I’ve uploaded to my server and those I haven’t.
+# List for free game!
 # If you're using a mobile device, rotate your phone to landscape mode.
-
 # Note: If the upload status shows '1', it means the game has been uploaded. If it shows '0', it hasn’t been uploaded.
+
+# If you need a game that's not on the list, feel free to contact me on Discord and leave a request in the '#free_games_request' channel. If possible, I'll provide it.
 # Discord server: https://discord.gg/3ShGjfj6je
 
 +------------------------------------------Toxic Home-----------------------------------------+
