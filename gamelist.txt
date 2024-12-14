@@ -1,5 +1,6 @@
 # List for free game!
 # If you're using a mobile device, rotate your phone to landscape mode.
+# 'CTRL + F' to search for the game name.
 # Note: If the upload status shows '1', it means the game has been uploaded. If it shows '0', it hasn’t been uploaded.
 
 # If you need a game that's not on the list, feel free to contact me on Discord and leave a request in the '#free_games_request' channel. If possible, I'll provide it.
