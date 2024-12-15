@@ -41,6 +41,12 @@ Stream accounts:
         password: batzaza191
         # working totally fine ✅
 
+    9. Account details:
+        username: WITCHER3PC1
+        password: ShopifyPc1W3
+        # working totally fine ✅
+        need to add
+
 Ubisoft accounts:
     1. Account details:
         username: cpgpass7@hotmail.com
