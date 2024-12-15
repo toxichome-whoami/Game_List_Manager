@@ -1,0 +1,48 @@
+Server posted Game accounts
+
+Stream accounts:
+    1. Account details: 
+        username: shareourlives13
+        password: share_our_lives?
+        # working totally fine ✅
+
+    2. Account details:
+        username: Nikhilrathore5
+        password: WWE@#789789
+        # working totally fine ✅
+
+    3. Account details:
+        username: rkwoh77645
+        password: uofh08187V
+        # working totally fine ✅
+
+    4. Account details:
+        username: cyperpunkxbpass
+        password: 147258aS
+        # working totally fine ✅
+
+    5. Account details:
+        username: qhmva79680
+        password: c2wyr2a5
+        # working totally fine ✅
+
+    6. Account details:
+        username: cadusting
+        password: Calixto21
+        # working totally fine ✅
+
+    7. Account details:
+        username: heihun100
+        password: 2NkhBETL
+        # working totally fine ✅
+
+    8. Account details:
+        username: nmsukt191 
+        password: batzaza191
+        # working totally fine ✅
+
+Ubisoft accounts:
+    1. Account details:
+        username: cpgpass7@hotmail.com
+        password: DCdBTMHN(h2
+        # working totally fine ✅
