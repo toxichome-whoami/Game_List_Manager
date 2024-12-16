@@ -109,3 +109,21 @@ Stream accounts:
         password: VkY5EauB
         # working totally fine ✅
         @star lord
+
+    18. Account details:
+        username: pf7yq3uu8ry9
+        password: Tu2Ww3Uk1Ok6
+        # working totally fine ✅
+        @star lord
+    
+    19. Account details:
+        username: wbtq1085547
+        password: steamok665544
+        # working totally fine ✅
+        @star lord
+
+    20. Account details:
+        username: 
+        password: 
+
+        
