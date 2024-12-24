@@ -139,10 +139,10 @@ Life is Strange Double Exposure -> 1874000
 Life is Strange True Colors -> 936790
 HITMAN -> 236870
 HITMAN 2 -> 863550
-Hitman Contracts -> 247430
-Hitman GO Definitive Edition -> 427820
+HITMAN Contracts -> 247430
+HITMAN GO Definitive Edition -> 427820
 HITMAN World of Assassination -> 1659040
-Hitman Absolution -> 203140
+HITMAN Absolution -> 203140
 Subnautica Below Zero -> 848450
 Getting Over It -> 240720
 Buckshot Roulette -> 2835570
