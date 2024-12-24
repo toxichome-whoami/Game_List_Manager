@@ -36,16 +36,15 @@ class GameDatabaseManager:
 
     def update_info(self):
         """Update an existing game's information in the database."""
-        self.display_database()
         while True:
+            self.display_database()
             row_number = input(
                 Fore.CYAN
-                + "Enter the row number to update (or 'c' to cancel, 'r' to refresh): "
+                + "Enter the row number to update (or 'm' for main menu, 'r' to refresh): "
             )
-            if row_number.lower() == "c":
+            if row_number.lower() == "m":
                 return
             elif row_number.lower() == "r":
-                self.display_database()
                 continue
             try:
                 row_number = int(row_number)
@@ -56,7 +55,7 @@ class GameDatabaseManager:
             except ValueError:
                 print(
                     Fore.RED
-                    + "Invalid input. Please enter a number, 'c' to cancel, or 'r' to refresh."
+                    + "Invalid input. Please enter a number, 'm' for main menu, or 'r' to refresh."
                 )
 
         # Extract current game info
@@ -71,6 +70,16 @@ class GameDatabaseManager:
             Fore.CYAN + "Enter new APP ID (press Enter to keep current): "
         )
 
+        if new_game_name:
+            if any(game[0] == new_game_name for game in self.database):
+                print(Fore.RED + "\nError: Game name already exists. Please try again.")
+                return
+
+        if new_app_id:
+            if any(game[1] == new_app_id for game in self.database):
+                print(Fore.RED + "\nError: APP ID already exists. Please try again.")
+                return
+
         new_game_name = new_game_name if new_game_name else game_name
         new_app_id = new_app_id if new_app_id else app_id
 
@@ -78,13 +87,17 @@ class GameDatabaseManager:
         self.save_database()
         print(Fore.GREEN + "Update successful.")
         self.display_database()  # Show updated database
-        self._prompt_again("Update another game?", self.update_info)
 
     def add_new_game(self):
         """Add a new game to the database."""
         while True:
-            game_name = input(Fore.CYAN + "Enter the name of the new game: ")
-            app_id = input(Fore.CYAN + "Enter the APP ID of the new game: ")
+            game_name = input(Fore.CYAN + "Enter the name of the new game (or 'm' for main menu): ")
+            if game_name.lower() == 'm':
+                return
+            
+            app_id = input(Fore.CYAN + "Enter the APP ID of the new game (or 'm' for main menu): ")
+            if app_id.lower() == 'm':
+                return
 
             # Input validation
             if not game_name.strip() or not app_id.strip():
@@ -92,6 +105,14 @@ class GameDatabaseManager:
                     Fore.RED
                     + "\nError: Both Game Name and APP ID are required. Please try again."
                 )
+                continue
+
+            if any(game[0] == game_name for game in self.database):
+                print(Fore.RED + "\nError: Game name already exists. Please try again.")
+                continue
+
+            if any(game[1] == app_id for game in self.database):
+                print(Fore.RED + "\nError: APP ID already exists. Please try again.")
                 continue
 
             new_entry = (game_name, app_id)
@@ -104,16 +125,15 @@ class GameDatabaseManager:
 
     def remove_game(self):
         """Remove a game from the database."""
-        self.display_database()
         while True:
+            self.display_database()
             row_number = input(
                 Fore.CYAN
-                + "Enter the row number to remove (or 'c' to cancel, 'r' to refresh): "
+                + "Enter the row number to remove (or 'm' for main menu, 'r' to refresh): "
             )
-            if row_number.lower() == "c":
+            if row_number.lower() == "m":
                 return
             elif row_number.lower() == "r":
-                self.display_database()
                 continue
             try:
                 row_number = int(row_number)
@@ -124,7 +144,7 @@ class GameDatabaseManager:
             except ValueError:
                 print(
                     Fore.RED
-                    + "Invalid input. Please enter a number, 'c' to cancel, or 'r' to refresh."
+                    + "Invalid input. Please enter a number, 'm' for main menu, or 'r' to refresh."
                 )
 
         # Extract game info to confirm removal
