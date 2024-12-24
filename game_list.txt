@@ -31,9 +31,9 @@ Call of Duty: Ghosts -> 209160
 Call of Duty: WWII -> 476600
 Red Dead Redemption -> 2668510
 Red Dead Redemption 2 -> 1174180
-Grand Theft Auto: Vice City – The Definitive Edition -> 1546990
-Grand Theft Auto III – The Definitive Edition -> 1546970
-Grand Theft Auto San Andreas – The Definitive Edition -> 1547000
+Grand Theft Auto: Vice City The Definitive Edition -> 1546990
+Grand Theft Auto III The Definitive Edition -> 1546970
+Grand Theft Auto San Andreas The Definitive Edition -> 1547000
 Grand Theft Auto V -> 271590
 Backrooms Escape Together -> 2141730
 The Last of Us Part I -> 1888930
@@ -98,8 +98,8 @@ Avatar Frontiers of Pandora -> 2840770
 Warhammer 40,000 Space Marine 2 -> 2183900
 Saints Row IV: Re-Elected -> 206420
 Motel Manager Simulator -> 931225
-Marvel’s Spider-Man Miles Morales -> 1817190
-Marvel’s Spider-Man Remastered -> 1817070
+Marvel's Spider-Man Miles Morales -> 1817190
+Marvel's Spider-Man Remastered -> 1817070
 Police Simulator: Patrol Officers -> 997010
 Euro Truck Simulator -> 227300
 Euro Truck Simulator 2 -> 227300
@@ -130,7 +130,7 @@ Star Wars Jedi Survivor -> 1774580
 Star Wars Jedi Fallen Order -> 1172380
 Injustice 2 -> 627270
 The Crew 2 -> 646910
-Life is Strange™ -> 319630
+Life is Strange -> 319630
 Life is Strange Remastered -> 1265920
 Life is Strange 2 -> 532210
 Life is Strange Before the Storm -> 554620
