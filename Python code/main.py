@@ -21,13 +21,14 @@ class GameDatabaseManager:
     def display_database(self):
         """Display the current database in a formatted manner."""
         if not self.database:
-            print("Database is empty.")
+            print("\nDatabase is empty.\n")
             return
-        print(" **Game Database** ")
+        print("\n **Game Database** ")
         print(" Row -> Game Name -> APP ID")
         print("-----------------------------------")
         for index, entry in enumerate(self.database, start=1):
             print(f"{index}. {self._format_database_entry(entry)}")
+        print()
 
     def update_info(self):
         """Update an existing game's information in the database."""
@@ -74,12 +75,12 @@ class GameDatabaseManager:
         while True:
             game_name = input("Enter the name of the new game: ")
             app_id = input("Enter the APP ID of the new game: ")
-            
+
             # Input validation
             if not game_name.strip() or not app_id.strip():
                 print("\nError: Both Game Name and APP ID are required. Please try again.")
                 continue
-            
+
             new_entry = (game_name, app_id)
             self.database.append(new_entry)
             self.save_database()
@@ -185,5 +186,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-           
