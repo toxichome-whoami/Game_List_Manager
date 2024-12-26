@@ -1,6 +1,6 @@
 import os
 import colorama
-from colorama import Fore, Style, Back, Cursor
+from colorama import Fore, Style, Back
 import time
 
 # Initialize colorama for colored terminal output
@@ -51,10 +51,16 @@ class GameDatabaseManager:
             print(Fore.RED + "\nDatabase is empty.\n")
             return
         print(Fore.CYAN + "\n" + Back.BLUE + " ** Game Database ** " + Back.RESET)
-        print(Fore.YELLOW + " Row  | Game Name                                    | APP ID")
-        print(Fore.YELLOW + "------------------------------------------------------------")
+        print(
+            Fore.YELLOW
+            + "Row   | Game Name                                           | APP ID"
+        )
+        print(
+            Fore.YELLOW
+            + "---------------------------------------------------------------------"
+        )
         for index, entry in enumerate(self.database, start=1):
-            print(Fore.GREEN + f"{index:<5}| {entry[0]:<43} | {entry[1]}")
+            print(Fore.GREEN + f"{index:<6}| {entry[0]:<51} | {entry[1]}")
         print()
 
     def update_info(self):
@@ -62,7 +68,7 @@ class GameDatabaseManager:
         while True:
             self.display_database()
             row_number = input(Fore.CYAN + "Enter the row number to update (or 'm' for main menu, 'r' to refresh): ").strip().lower()
-            
+
             if row_number == "m":
                 return
             elif row_number == "r":
@@ -116,7 +122,7 @@ class GameDatabaseManager:
             print(Fore.GREEN + "Update successful.")
         else:
             print(Fore.RED + "Update cancelled.")
-        
+
         self.display_database()  # Show updated database
 
     def add_new_game(self):
@@ -195,7 +201,7 @@ class GameDatabaseManager:
             print(Fore.GREEN + "Game removed successfully.")
         else:
             print(Fore.RED + "Removal cancelled.")
-        
+
         self.display_database()  # Show updated database
 
     def _parse_database_entry(self, entry):
