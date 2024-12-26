@@ -16,6 +16,9 @@ class GameDatabaseManager:
                 return [self._parse_database_entry(line.strip()) for line in file.readlines()]
         except FileNotFoundError:
             return []
+        except Exception as e:
+            print(Fore.RED + f"An error occurred while loading the database: {e}")
+            return []
 
     def save_database(self):
         """Save the current database to the file."""
@@ -91,20 +94,18 @@ class GameDatabaseManager:
     def add_new_game(self):
         """Add a new game to the database."""
         while True:
-            game_name = input(Fore.CYAN + "Enter the name of the new game (or 'm' for main menu): ")
+            game_name = input(Fore.CYAN + "Enter the name of the new game (or 'm' for main menu): ").strip()
             if game_name.lower() == 'm':
                 return
-            
-            app_id = input(Fore.CYAN + "Enter the APP ID of the new game (or 'm' for main menu): ")
+            if not game_name:
+                print(Fore.RED + "\nError: Game name is required. Please try again.")
+                continue
+
+            app_id = input(Fore.CYAN + "Enter the APP ID of the new game (or 'm' for main menu): ").strip()
             if app_id.lower() == 'm':
                 return
-
-            # Input validation
-            if not game_name.strip() or not app_id.strip():
-                print(
-                    Fore.RED
-                    + "\nError: Both Game Name and APP ID are required. Please try again."
-                )
+            if not app_id:
+                print(Fore.RED + "\nError: APP ID is required. Please try again.")
                 continue
 
             if any(game[0] == game_name for game in self.database):
@@ -119,7 +120,7 @@ class GameDatabaseManager:
             self.database.append(new_entry)
             self.save_database()
             print(Fore.GREEN + "Game added successfully.")
-            self.display_database()  # Show updated database
+            self.display_database()
             self._prompt_again("Add another game?", self.add_new_game)
             break
 
