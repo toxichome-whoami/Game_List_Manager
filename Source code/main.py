@@ -16,7 +16,7 @@ def get_user_input(prompt, valid_options=None):
             return user_input
 
 class GameDatabaseManager:
-    def __init__(self, filename="game_list.txt"):
+    def __init__(self, filename="D:\Python\Git repos\server_free_game_list\game_list.txt"):
         self.filename = filename
         self.database = self.load_database()
 
