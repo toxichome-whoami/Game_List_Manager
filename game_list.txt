@@ -152,3 +152,5 @@ Cricket 24 -> 2358260
 Starfield Wars 3D -> 886290
 ELDEN RING -> 1245620
 Mortal Kombat X -> 307780
+Firewatch -> 383870
+Blasphemous 2 -> 2114740
